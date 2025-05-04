@@ -1,17 +1,43 @@
 /* custom.css */
 
+/* background */
 body {
-  background-color: #f7f7f7;
-  font-family: "Georgia", serif;
-  color: #333;
+  background-color: #9370DB; /* Medium Purple */
+  font-family: 'Georgia', serif;
+  color: #000000; /* Black text */
 }
 
+/* Headings */
 h1, h2 {
-  font-family: "Arial Black", sans-serif;
-  color: darkblue;
+  font-family: 'Arial Black', sans-serif;
+  color: #000000; /* Black headings */
 }
 
+/* Paragraph styling */
 p {
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.7;
+  color: #000000; /* Black paragraph text */
+}
+
+/* Custom button */
+.custom-button {
+  background-color: #FF69B4; /* Hot Pink */
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+/* hover */
+.custom-button:hover {
+  background-color: #ff85c1;
+}
+
+/* Footer text styling */
+footer p {
+  font-style: italic;
+  color: #000000;
 }
